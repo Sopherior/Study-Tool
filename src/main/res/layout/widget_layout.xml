@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.WidgetApp.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.WidgetApp.AppWidgetContainer"
+    >
+
+    <Button
+        android:id="@+id/widgetOpenButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:text="Open Website" />
+</RelativeLayout>
